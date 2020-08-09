@@ -1,4 +1,4 @@
-# Djago Polls tutorial
+# Django Polls tutorial
 
 
 This application was made following [Django Documentation](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
