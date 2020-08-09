@@ -7,7 +7,7 @@ from django.views import generic
 
 from .models import Question, Choice
 
-
+# Every Generic template needs to have template_name and context_object_name
 def get_queryset(self):
     # Return the last five published questions (not including those set to be
     # published in the future).
@@ -17,7 +17,6 @@ def get_queryset(self):
 
 
 class IndexView(generic.ListView):
-    # to use generic Views, template_name, context_object_name has to be provided
     template_name = "polls/index.html"
     context_object_name = "latest_question_list"
 
@@ -27,9 +26,10 @@ class IndexView(generic.ListView):
 
 
 class DetailView(generic.DetailView):
-    # model = Question
-    # template_name = "polls/detail.html"
-     def get_queryset(self):
+    model = Question
+    template_name = "polls/detail.html"
+
+    def get_queryset(self):
         """
         Excludes any questions that aren't published yet.
         """
