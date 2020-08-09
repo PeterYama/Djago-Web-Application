@@ -1,0 +1,10 @@
+/* Css files have to be located at polls/static/polls/style.css for automatic match */
+
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/91352.jpg") no-repeat center;
+    background-size: cover;
+}
