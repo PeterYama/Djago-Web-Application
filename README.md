@@ -1,6 +1,16 @@
 # Django Polls tutorial
 
 
+**In this application you can learn about:**
+  - Apps and routes
+  - Databases and models 
+  - Foreign key constraint
+  - Styling the page with CSS
+  - Testing Scripts
+  - HttpResponse
+  - Custom Admin pages and more
+
+
 This application was made following [Django Documentation](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
 , User can select options from a question that are saved in the database
 ### Added a simple css styling
