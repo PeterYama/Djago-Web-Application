@@ -1,7 +1,7 @@
 # Django & Django Rest Framework Example
 
 
-**In Django application includes:**
+**This Django application includes:**
   - Apps and routes
   - Databases and models 
   - Foreign key constraint
